@@ -57,6 +57,14 @@ undefined === null   // False
 NaN == NaN  // False
 NaN === NaN  // False
 
+1 == "1.0" // True
+1 === "1.0" // True
+
+1 == 1.0 // True
+1 === 1.0  // True
+
+"1" == "1.0" // False
+
 
 /*
 -------------------------------
